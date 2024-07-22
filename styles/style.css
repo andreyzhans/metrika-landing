@@ -47,6 +47,11 @@ header {
     text-transform: uppercase;
 }
 
+.header-navigation-element:hover {
+    text-decoration: underline;
+    color: grey;
+}
+
 .block1 {
     width: 1150px;
     margin: 60px auto 0 auto;
@@ -218,6 +223,11 @@ header {
     margin-top: 33px;
 }
 
+.email {
+    color: grey;
+    text-decoration: underline;
+}
+
 footer {
     background-color: black;
     width: 100%;
@@ -236,10 +246,14 @@ footer {
 
 .footer-description {
     text-align: center;
-    color: rgb(255, 255, 255, 0.5);
+    color: grey;
     padding-bottom: 30px;
 }
 
 .qqq {
     padding-right: 50px;
+}
+
+a.footer-panel:hover {
+    color: grey;
 }
