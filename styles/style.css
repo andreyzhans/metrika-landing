@@ -2,6 +2,7 @@ body {
     font-family: Manrope, Courier, monospace;
     font-weight: 400;
     font-size: 15pt;
+    background-color: #f5f5f5;
 }
 h1 {
     font-weight: 400;
@@ -70,7 +71,7 @@ header {
 .main-scene-describtion {
     font-size: 20px;
     line-height: 27px;
-    color: white;
+    color: #f5f5f5;
     width: 430px;
     padding-top: 262px;
     margin: 0 auto 40px 40px;
@@ -88,7 +89,7 @@ header {
 }
 
 .block2-button {
-    background-color: white;
+    background-color: #f5f5f5;
     border:1px solid #AD1818;
     border-radius: 5px;
     width: 255px;
@@ -102,7 +103,7 @@ header {
 
 .block2-button:hover {
     background-color: #AD1818;
-    color: white;
+    color: #f5f5f5;
 }
 
 .block3 {
@@ -135,7 +136,7 @@ header {
 }
 
 .block3-button {
-    background-color: white;
+    background-color: #f5f5f5;
     border:1px solid #AD1818;
     border-radius: 5px;
     text-decoration: none;
@@ -149,7 +150,7 @@ header {
 
 .block3-button:hover {
     background-color: #AD1818;
-    color: white;
+    color: #f5f5f5;
 }
 
 .block4 {
@@ -166,21 +167,21 @@ header {
 
 .block4-h2 {
     margin-bottom: 30px;
-    color: white;
+    color: #f5f5f5;
 }
 
 .block4-element {
     width: 1150px;
     margin-bottom: 60px;
     text-decoration: none;
-    color: white;
+    color: #f5f5f5;
 }
 
 .block4-title {
     margin-top: 15px;
     font-size: 30px;
     line-height: 41px;
-    color: white;
+    color: #f5f5f5;
 }
 
 .block5 {
@@ -197,7 +198,7 @@ header {
 }
 
 .block5-title {
-    color: white;
+    color: #f5f5f5;
     padding-top: 515px;
 /*    padding-left: 120px; */
     font-size: 30px;
@@ -240,7 +241,7 @@ footer {
     text-transform: uppercase;
     padding-top: 60px;
     padding-bottom: 88px;
-    color: white;
+    color: #f5f5f5;
     text-decoration: none;
 }
 
