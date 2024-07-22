@@ -65,7 +65,7 @@ header {
 .main-scene-describtion {
     font-size: 20px;
     line-height: 27px;
-
+    color: white;
     width: 430px;
     padding-top: 262px;
     margin: 0 auto 40px 40px;
@@ -83,10 +83,12 @@ header {
 }
 
 .block2-button {
-    background-color: #4f4f4f;
+    background-color: white;
+    border:1px solid #AD1818;
+    border-radius: 5px;
     width: 255px;
     height: 67px;
-    color: #fff;
+    color: black;
     font-size: 20px;
     text-decoration: none;
     padding: 20px 40px;
@@ -95,6 +97,7 @@ header {
 
 .block2-button:hover {
     background-color: #AD1818;
+    color: white;
 }
 
 .block3 {
@@ -123,11 +126,13 @@ header {
     margin-top: 15px;
     font-size: 20px;
     line-height: 27px;
+    color: #AD1818;
 }
 
 .block3-button {
-    color: #fff;
-    background-color: rgb(51,51,51);
+    background-color: white;
+    border:1px solid #AD1818;
+    border-radius: 5px;
     text-decoration: none;
     padding: 56px 60px;
     display: block;
@@ -139,31 +144,44 @@ header {
 
 .block3-button:hover {
     background-color: #AD1818;
+    color: white;
 }
 
 .block4 {
     width: 1150px;
     margin: 150px auto 0 auto;
+    background-color: black;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.block4-block {
+    background-color: black;
 }
 
 .block4-h2 {
     margin-bottom: 30px;
+    color: white;
 }
 
 .block4-element {
     width: 1150px;
     margin-bottom: 60px;
     text-decoration: none;
+    color: white;
 }
 
 .block4-title {
     margin-top: 15px;
     font-size: 30px;
     line-height: 41px;
+    color: white;
 }
 
 .block5 {
-    background-image: url("../resources/rectangle4.png");
+    background-image: url("../resources/rectangle9.png");
+    background-repeat:no-repeat;
+    background-position: center;
     width: 100%;
     height: 717px;
 }
@@ -174,6 +192,7 @@ header {
 }
 
 .block5-title {
+    color: white;
     padding-top: 515px;
 /*    padding-left: 120px; */
     font-size: 30px;
@@ -200,7 +219,7 @@ header {
 }
 
 footer {
-    background-color: rgb(51,51,51);
+    background-color: black;
     width: 100%;
 }
 
