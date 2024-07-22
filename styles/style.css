@@ -1,0 +1,226 @@
+body {
+    font-family: Manrope, Courier, monospace;
+    font-weight: 400;
+    font-size: 15pt;
+}
+h1 {
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+    width: 1150px;
+}
+
+h2 {
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+button {
+    font-family: Manrope, Courier, monospace;
+    font-weight: 500;
+    font-size: 15pt;
+}
+
+a {
+    color: black;
+}
+
+
+.header-logo, .header-navigation {
+    display: inline;
+}
+header {
+    padding-top: 26px;
+    margin: 0 auto;
+    width: 1155px;
+    text-align: center;
+}
+
+.header-navigation {
+    margin-left: 430px;
+}
+
+.header-navigation-element {
+    margin-left: 57px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.block1 {
+    width: 1150px;
+    margin: 60px auto 0 auto;
+}
+
+.main-scene1 {
+    background-image: url("../resources/rectangle1.png");
+    width: 1150px;
+    height: 410px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin-top: 20px;
+}
+
+.main-scene-describtion {
+    font-size: 20px;
+    line-height: 27px;
+
+    width: 430px;
+    padding-top: 262px;
+    margin: 0 auto 40px 40px;
+}
+
+.block2 {
+    width: 1150px;
+    margin: 150px auto 0 auto;
+}
+
+.main-description {
+    font-size: 45px;
+    line-height: 61px;
+    margin-bottom: 30px;
+}
+
+.block2-button {
+    background-color: #4f4f4f;
+    width: 255px;
+    height: 67px;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 20px 40px;
+    box-sizing: padding-box;
+}
+
+.block2-button:hover {
+    background-color: #AD1818;
+}
+
+.block3 {
+    width: 1150px;
+    margin: 150px auto 0 auto;
+}
+
+.block3-h2 {
+    margin-bottom: 30px;
+}
+
+.block3-element {
+    width: 1150px;
+    margin-bottom: 90px;
+    text-decoration: none;
+}
+
+.block3-element-title {
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 41px;
+}
+
+.block3-element-more {
+    margin-top: 15px;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.block3-button {
+    color: #fff;
+    background-color: rgb(51,51,51);
+    text-decoration: none;
+    padding: 56px 60px;
+    display: block;
+    margin-top: 90px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 41px;
+}
+
+.block3-button:hover {
+    background-color: #AD1818;
+}
+
+.block4 {
+    width: 1150px;
+    margin: 150px auto 0 auto;
+}
+
+.block4-h2 {
+    margin-bottom: 30px;
+}
+
+.block4-element {
+    width: 1150px;
+    margin-bottom: 60px;
+    text-decoration: none;
+}
+
+.block4-title {
+    margin-top: 15px;
+    font-size: 30px;
+    line-height: 41px;
+}
+
+.block5 {
+    background-image: url("../resources/rectangle4.png");
+    width: 100%;
+    height: 717px;
+}
+
+.block5-element {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.block5-title {
+    padding-top: 515px;
+/*    padding-left: 120px; */
+    font-size: 30px;
+    width: 443px;
+    line-height: 41px;
+}
+
+.block6 {
+    margin: 0 auto;
+    width: 1150px;
+}
+
+.block6-h2 {
+    padding-top: 150px;
+}
+
+.block6-element {
+    margin: 33px auto 150px;
+    font-size: 60px;
+}
+
+.block6-contact {
+    margin-top: 33px;
+}
+
+footer {
+    background-color: rgb(51,51,51);
+    width: 100%;
+}
+
+.footer-panel {
+/*    width: 452px; */
+    width:fit-content;
+    margin: 0 auto;
+    text-transform: uppercase;
+    padding-top: 60px;
+    padding-bottom: 88px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-description {
+    text-align: center;
+    color: rgb(255, 255, 255, 0.5);
+    padding-bottom: 30px;
+}
+
+.qqq {
+    padding-right: 50px;
+}
