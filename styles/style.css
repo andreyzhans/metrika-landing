@@ -56,12 +56,13 @@ header {
   color: grey;
 }
 
-.block1 {
+.block-main {
   width: 1150px;
   margin: 60px auto 0 auto;
 }
 
 .main-scene1 {
+  position: relative;
   margin-top: 30px;
   width: 1150px;
   height: 500px;
@@ -71,16 +72,19 @@ header {
 }
 
 .main-scene-describtion {
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
   width: 430px;
-  padding-top: 379px;
-  margin: 0 auto 40px 40px;
+  /*  padding-top: 379px;
+  margin: 0 auto 40px 40px; */
   font-size: 20px;
   line-height: 27px;
   letter-spacing: -0.03em;
   color: #f5f5f5;
 }
 
-.block2 {
+.block-about {
   margin: 150px auto 0 auto;
   width: 1150px;
 }
@@ -92,7 +96,7 @@ header {
   line-height: 61px;
 }
 
-.block2-button {
+.block-about-button {
   margin-top: 30px;
   display: inline-block;
   padding: 20px 40px;
@@ -105,42 +109,42 @@ header {
   text-decoration: none;
 }
 
-.block2-button:hover {
+.block-about-button:hover {
   background-color: #f5f5f5;
   color: black;
   cursor: default;
 }
 
-.block3 {
+.block-projects {
   width: 1150px;
   margin: 150px auto 0 auto;
 }
 
-.block3-h2 {
+.block-projects-h2 {
   margin-bottom: 30px;
 }
 
-.block3-element {
+.block-projects-element {
   width: 1150px;
   margin-bottom: 90px;
   text-decoration: none;
 }
 
-.block3-element-title {
+.block-projects-element-title {
   margin-top: 15px;
   font-size: 30px;
   line-height: 41px;
   text-transform: uppercase;
 }
 
-.block3-element-more {
+.block-projects-element-more {
   margin-top: 15px;
   font-size: 20px;
   line-height: 27px;
   color: #ad1818;
 }
 
-.block3-button {
+.block-projects-button {
   display: block;
   padding: 56px 60px;
   margin-top: 90px;
@@ -154,13 +158,13 @@ header {
   text-decoration: none;
 }
 
-.block3-button:hover {
+.block-projects-button:hover {
   background-color: #f5f5f5;
   color: black;
   cursor: default;
 }
 
-.block4 {
+.block-services {
   width: 1150px;
   margin: 150px auto 0 auto;
   padding-top: 150px;
@@ -168,30 +172,34 @@ header {
   background-color: black;
 }
 
-.block4-block {
+.block-services-block {
   background-color: black;
 }
 
-.block4-h2 {
+.block-services-h2 {
   margin-bottom: 30px;
   color: #f5f5f5;
 }
 
-.block4-element {
+.block-services-element {
+  display: block;
   width: 1150px;
   margin-bottom: 60px;
   text-decoration: none;
   color: #f5f5f5;
 }
+.block-services-element:nth-last-child(1) {
+  margin-bottom: 0;
+}
 
-.block4-title {
+.block-services-title {
   margin-top: 15px;
   font-size: 30px;
   line-height: 41px;
   color: #f5f5f5;
 }
 
-.block5 {
+.block-banner {
   width: 100%;
   height: 717px;
   background-image: url("../resources/rectangle9.png");
@@ -199,34 +207,39 @@ header {
   background-position: center;
 }
 
-.block5-element {
+.block-banner-element {
+  position: relative;
   width: 1150px;
+  height: 100%;
   margin: 0 auto;
 }
 
-.block5-title {
+.block-banner-title {
+  position: absolute;
+  left: 0px;
+  bottom: 120px;
   width: 443px;
-  padding-top: 515px;
+  /*  padding-top: 515px; */
   font-size: 30px;
   line-height: 41px;
   color: #f5f5f5;
 }
 
-.block6 {
+.block-contacts {
   width: 1150px;
   margin: 0 auto;
 }
 
-.block6-h2 {
+.block-contacts-h2 {
   padding-top: 150px;
 }
 
-.block6-element {
+.block-contacts-element {
   margin: 33px auto 150px;
   font-size: 60px;
 }
 
-.block6-contact {
+.block-contacts-contact {
   margin-top: 33px;
 }
 
