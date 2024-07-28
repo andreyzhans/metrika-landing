@@ -286,3 +286,10 @@ footer {
 a.footer-panel:hover {
   color: grey;
 }
+
+.block-contacts__h2::before {
+  content: url("../resources/contacts.svg");
+  display: block;
+  position: relative;
+  right: 4px;
+}
