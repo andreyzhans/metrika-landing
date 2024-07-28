@@ -1,7 +1,7 @@
 body {
   font-family: Manrope, Courier, monospace;
   font-weight: 400;
-  font-size: 15pt;
+  font-size: 15px; /* pt or px? */
   letter-spacing: -0.03em;
   background-color: #f5f5f5;
 }
@@ -30,7 +30,7 @@ a {
   color: black;
 }
 
-.header-logo,
+.header__logo,
 .header-navigation {
   display: inline;
 }
@@ -45,13 +45,13 @@ header {
   margin-left: 430px;
 }
 
-.header-navigation-element {
+.header-navigation__element {
   margin-left: 57px;
   text-decoration: none;
   text-transform: uppercase;
 }
 
-.header-navigation-element:hover {
+.header-navigation__element:hover {
   text-decoration: underline;
   color: grey;
 }
@@ -61,7 +61,7 @@ header {
   margin: 60px auto 0 auto;
 }
 
-.main-scene1 {
+.block-main-scene {
   position: relative;
   margin-top: 30px;
   width: 1150px;
@@ -71,7 +71,7 @@ header {
   background-size: cover;
 }
 
-.main-scene-describtion {
+.block-main-scene__describtion {
   position: absolute;
   left: 40px;
   bottom: 40px;
@@ -80,7 +80,7 @@ header {
   margin: 0 auto 40px 40px; */
   font-size: 20px;
   line-height: 27px;
-  letter-spacing: -0.03em;
+  /*  letter-spacing: -0.03em; */
   color: #f5f5f5;
 }
 
@@ -89,14 +89,14 @@ header {
   width: 1150px;
 }
 
-.main-description {
+.block-main__description {
   margin-bottom: 30px;
   font-size: 45px;
   font-weight: 400;
   line-height: 61px;
 }
 
-.block-about-button {
+.block-about__btn {
   margin-top: 30px;
   display: inline-block;
   padding: 20px 40px;
@@ -109,7 +109,7 @@ header {
   text-decoration: none;
 }
 
-.block-about-button:hover {
+.block-about__btn_hover:hover {
   background-color: #f5f5f5;
   color: black;
   cursor: default;
@@ -120,7 +120,7 @@ header {
   margin: 150px auto 0 auto;
 }
 
-.block-projects-h2 {
+.block-projects__h2 {
   margin-bottom: 30px;
 }
 
@@ -130,14 +130,14 @@ header {
   text-decoration: none;
 }
 
-.block-projects-element-title {
+.block-projects-element__title {
   margin-top: 15px;
   font-size: 30px;
   line-height: 41px;
   text-transform: uppercase;
 }
 
-.block-projects-element-more {
+.block-projects-element__more {
   margin-top: 15px;
   font-size: 20px;
   line-height: 27px;
@@ -145,7 +145,7 @@ header {
   text-decoration: none;
 }
 
-.block-projects-button {
+.block-projects__button {
   display: block;
   padding: 56px 60px;
   margin-top: 90px;
@@ -159,7 +159,7 @@ header {
   text-decoration: none;
 }
 
-.block-projects-button:hover {
+.block-projects__button_hover:hover {
   background-color: #f5f5f5;
   color: black;
   cursor: default;
@@ -173,11 +173,11 @@ header {
   background-color: black;
 }
 
-.block-services-block {
+.block-services-block-wrapper {
   background-color: black;
 }
 
-.block-services-h2 {
+.block-services__h2 {
   margin-bottom: 30px;
   color: #f5f5f5;
 }
@@ -193,7 +193,7 @@ header {
   margin-bottom: 0;
 }
 
-.block-services-title {
+.block-services-element__title {
   margin-top: 15px;
   font-size: 30px;
   line-height: 41px;
@@ -215,7 +215,7 @@ header {
   margin: 0 auto;
 }
 
-.block-banner-title {
+.block-banner-element__title {
   position: absolute;
   left: 0px;
   bottom: 120px;
@@ -231,7 +231,7 @@ header {
   margin: 0 auto;
 }
 
-.block-contacts-h2 {
+.block-contacts__h2 {
   padding-top: 150px;
 }
 
@@ -240,7 +240,7 @@ header {
   font-size: 60px;
 }
 
-.block-contacts-contact {
+.block-contacts-element__contact {
   margin-top: 33px;
 }
 
@@ -259,15 +259,23 @@ footer {
   margin: 0 auto;
   padding-top: 60px;
   padding-bottom: 88px;
+}
+
+.footer-panel__element {
   text-transform: uppercase;
   text-decoration: none;
   color: #f5f5f5;
+  padding-right: 50px;
+}
+.footer-panel__element:last-child(1) {
+  padding-right: 0px;
 }
 
 .footer-description {
   padding-bottom: 30px;
   text-align: center;
   color: grey;
+  padding-right: 50px;
 }
 
 .qqq {
