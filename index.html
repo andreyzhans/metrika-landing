@@ -14,21 +14,21 @@
   </head>
   <body>
     <header>
-      <a class="header-logo" href="./index.html"
+      <a class="header__logo" href="./index.html"
         ><img src="resources/Метрика.svg" alt="Метрика лого"
       /></a>
-      <div class="header-navigation">
-        <a class="header-navigation-element" href="">О нас</a>
-        <a class="header-navigation-element" href="">Проекты</a>
-        <a class="header-navigation-element" href="">Услуги</a>
-        <a class="header-navigation-element" href="">Контакты</a>
-      </div>
+      <nav class="header-navigation">
+        <a class="header-navigation__element" href="">О нас</a>
+        <a class="header-navigation__element" href="">Проекты</a>
+        <a class="header-navigation__element" href="">Услуги</a>
+        <a class="header-navigation__element" href="">Контакты</a>
+      </nav>
     </header>
     <main>
       <div class="block-main">
         <h1>Современные и стильные интерьеры для комфортной жизни</h1>
-        <div class="main-scene1">
-          <p class="main-scene-describtion">
+        <div class="block-main-scene">
+          <p class="block-main-scene__describtion">
             Мы — команда квалифицированных дизайнеров и архитекторов,
             занимающихся разработкой и реализацией дизайн-проектов
           </p>
@@ -36,78 +36,84 @@
       </div>
       <section class="block-about">
         <h2>О нас</h2>
-        <p class="main-description">
+        <p class="block-main__description">
           Студия основана в 2011 году. Полностью отдаёмся проектированию и
           реализации интерьеров. К нам обращаются за уютом, индивидуальными
           решениями и практичностью. Находим конструктивные решения для каждого
           интерьера, вплоть до каждой детали — нацелены на результат.
         </p>
-        <a class="block-about-button" href="#">Посмотреть услуги</a>
+        <a class="block-about__btn block-about__btn_hover" href="#"
+          >Посмотреть услуги</a
+        >
       </section>
       <section class="block-projects">
-        <h2 class="block-projects-h2">Проекты</h2>
+        <h2 class="block-projects__h2">Проекты</h2>
         <ul>
           <li class="block-projects-element" href="#">
             <div class="block-projects-element">
               <img src="./resources/rectangle2.png" alt="ЖК Правобережный" />
-              <p class="block-projects-element-title">
+              <p class="block-projects-element__title">
                 ЖК Правобережный — 112 м² — 2023
               </p>
-              <a class="block-projects-element-more" href="">Подробнее →</a>
+              <a class="block-projects-element__more" href="">Подробнее →</a>
             </div>
           </li>
           <li class="block-projects-element" href="#">
             <div class="block-projects-element">
               <img src="./resources/rectangle3.png" alt="ЖК Норвежский парк" />
-              <p class="block-projects-element-title">
+              <p class="block-projects-element__title">
                 ЖК Норвежский парк — 75 м² — 2023
               </p>
-              <a class="block-projects-element-more" href="">Подробнее →</a>
+              <a class="block-projects-element__more" href="">Подробнее →</a>
             </div>
           </li>
           <li class="block-projects-element" href="#">
             <div class="block-projects-element">
               <img src="./resources/rectangle4.png" alt="ЖК Сосновские озера" />
-              <p class="block-projects-element-title">ЖК Сосновские озера</p>
-              <a class="block-projects-element-more" href="">Подробнее →</a>
+              <p class="block-projects-element__title">ЖК Сосновские озера</p>
+              <a class="block-projects-element__more" href="">Подробнее →</a>
             </div>
           </li>
         </ul>
-        <a class="block-projects-button" href="#">Смотреть все проекты</a>
+        <a class="block-projects__button block-projects__button_hover" href="#"
+          >Смотреть все проекты</a
+        >
       </section>
-      <div class="block-services-block">
+      <div class="block-services-block-wrapper">
         <section class="block-services">
-          <h2 class="block-services-h2">Услуги</h2>
+          <h2 class="block-services__h2">Услуги</h2>
           <ul>
             <a class="block-services-element" href="#"
-              ><li class="block-services-element">
+              ><li>
                 <img
                   src="./resources/rectangle5.png"
                   alt="Планировочное решение"
                 />
-                <p class="block-services-title">
+                <p class="block-services-element__title">
                   Планировочное решение — от 2500 ₽/м²
                 </p>
               </li></a
             >
             <a class="block-services-element" href="#"
-              ><li class="block-services-element">
+              ><li>
                 <img src="./resources/rectangle6.png" alt="Дизайн-проект" />
-                <p class="block-services-title">Дизайн-проект — от 3000 ₽/м²</p>
+                <p class="block-services-element__title">
+                  Дизайн-проект — от 3000 ₽/м²
+                </p>
               </li></a
             >
             <a class="block-services-element" href="#"
-              ><li class="block-services-element">
+              ><li>
                 <img src="./resources/rectangle7.png" alt="Авторский надзор" />
-                <p class="block-services-title">
+                <p class="block-services-element__title">
                   Авторский надзор — от 30 000 ₽ в месяц
                 </p>
               </li></a
             >
             <a class="block-services-element" href="#"
-              ><li class="block-services-element">
+              ><li>
                 <img src="./resources/rectangle8.png" alt="Комплектация" />
-                <p class="block-services-title">
+                <p class="block-services-element__title">
                   Комплектация — 5% от стоимости спецификации
                 </p>
               </li></a
@@ -117,17 +123,17 @@
       </div>
       <div class="block-banner">
         <div class="block-banner-element">
-          <p class="block-banner-title">
+          <p class="block-banner-element__title">
             Проект двухкомнатной квартиры в ЖК Лесной Пейзаж
           </p>
         </div>
       </div>
       <section class="block-contacts">
-        <h2 class="h2 block-contacts-h2">Контакты</h2>
+        <h2 class="h2 block-contacts__h2">Контакты</h2>
         <div class="block-contacts-element">
-          <p class="block-contacts-contact">+7 000 000-00-00</p>
+          <p class="block-contacts-elements__contact">+7 000 000-00-00</p>
           <a
-            class="block-contacts-contact email"
+            class="block-contacts-elements__contact email"
             href="emailto:example@example.com"
             >example@example.com</a
           >
@@ -136,10 +142,10 @@
     </main>
     <footer>
       <nav class="footer-panel">
-        <a class="footer-panel qqq" href="#">О нас</a>
-        <a class="footer-panel qqq" href="#">Проекты</a>
-        <a class="footer-panel qqq" href="#">Услуги</a>
-        <a class="footer-panel" href="#">Контакты</a>
+        <a class="footer-panel__element" href="#">О нас</a>
+        <a class="footer-panel__element" href="#">Проекты</a>
+        <a class="footer-panel__element" href="#">Услуги</a>
+        <a class="footer-panel__element" href="#">Контакты</a>
       </nav>
       <p class="footer-description">студия дизайна интерьера Метрика — 2023</p>
     </footer>
