@@ -249,6 +249,13 @@ header {
   margin-top: 33px;
 }
 
+.tel,
+.tel:hover,
+.tel:visited {
+  text-decoration: none;
+  color: black;
+}
+
 .email {
   color: grey;
   text-decoration: underline;
