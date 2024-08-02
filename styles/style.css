@@ -50,14 +50,22 @@ header {
 }
 
 .header-navigation__element {
+  position: relative;
   margin-left: 57px;
   text-decoration: none;
   text-transform: uppercase;
 }
 
 .header-navigation__element:hover {
-  text-decoration: underline;
   color: grey;
+}
+
+.header-navigation__element:hover::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  top: 22px;
+  border: 1px solid grey;
 }
 
 .block-main {
