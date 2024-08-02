@@ -40,13 +40,16 @@ a {
 }
 header {
   width: 1155px;
-  text-align: center;
   padding-top: 26px;
   margin: 0 auto;
 }
 
+.header__logo {
+  margin-right: 430px;
+}
+
 .header-navigation {
-  margin-left: 430px;
+  float: right;
 }
 
 .header-navigation__element {
@@ -57,15 +60,9 @@ header {
 }
 
 .header-navigation__element:hover {
-  color: grey;
-}
-
-.header-navigation__element:hover::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  top: 22px;
-  border: 1px solid grey;
+  color: #121212;
+  opacity: 0.5;
+  border-bottom: 1px solid rgba(18, 18, 18, 0.5);
 }
 
 .block-main {
