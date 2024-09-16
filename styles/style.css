@@ -86,7 +86,7 @@ header {
   bottom: 40px;
   width: 430px;
   /*  padding-top: 379px;
-  margin: 0 auto 40px 40px; */
+    margin: 0 auto 40px 40px; */
   font-size: 20px;
   line-height: 27px;
   /*  letter-spacing: -0.03em; */
@@ -308,4 +308,61 @@ a.footer-panel:hover {
   display: block;
   position: relative;
   right: 4px;
+}
+
+@media (max-width: 1199px) {
+  main {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .block-main {
+    width: 100%;
+    margin: 60px auto 0 auto;
+  }
+  .block-about {
+    margin: 150px auto 0 auto;
+    width: 100%;
+  }
+  .block-projects {
+    width: 100%;
+    margin: 150px auto 0 auto;
+  }
+  h1 {
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    width: 802px;
+  }
+  .block-main-scene {
+    position: relative;
+    margin-top: 30px;
+    width: 100%;
+    background-image: url("../resources/rectangle1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .block-main__description {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 61px;
+  }
+  .block-main__description {
+    width: 690px;
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 61px;
+    letter-spacing: -0.03em;
+  }
+  .block-projects-element {
+    width: 100%;
+    margin-bottom: 90px;
+    text-decoration: none;
+  }
+  .projects__img {
+    width: 100%;
+  }
 }
