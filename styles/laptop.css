@@ -1,4 +1,4 @@
-@media (not (max-width: 576px)) and (max-width: 1199px) {
+@media (not (max-width: 575px)) and (max-width: 1199px) {
   body {
     font-family: Manrope, Courier, monospace;
     font-weight: 400;
