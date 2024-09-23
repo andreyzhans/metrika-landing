@@ -100,6 +100,7 @@
   }
 
   .block-main__description {
+    max-width: 1048px;
     margin-bottom: 30px;
     font-size: 45px;
     font-weight: 400;
@@ -138,6 +139,24 @@
     width: 1150px;
     margin-bottom: 90px;
     text-decoration: none;
+  }
+
+  .img1 {
+    background-image: url("../resources/rectangle3.png");
+    background-position-x: 20%;
+  }
+  .img2 {
+    background-image: url("../resources/rectangle2.png");
+  }
+  .img3 {
+    background-image: url("../resources/rectangle4.png");
+  }
+  .projects__img {
+    position: relative;
+    width: 1150px;
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   .block-projects-element__title {

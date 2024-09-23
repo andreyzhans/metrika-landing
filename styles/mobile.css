@@ -83,10 +83,12 @@
     margin-bottom: 60px;
   }
   .block-projects-element__title {
+    margin-top: 20px;
     margin-bottom: 11px;
     font-size: 18px;
     line-height: 25px;
     letter-spacing: -0.03em;
+    text-transform: uppercase;
   }
   .block-projects-element__more {
     color: rgb(173, 24, 24);
@@ -96,7 +98,16 @@
     letter-spacing: -0.03em;
     text-decoration: none;
   }
-
+  .img1 {
+    background-image: url("../resources/rectangle3.png");
+    background-position-x: 20%;
+  }
+  .img2 {
+    background-image: url("../resources/rectangle2.png");
+  }
+  .img3 {
+    background-image: url("../resources/rectangle4.png");
+  }
   .projects__img {
     position: relative;
     height: 250px;
