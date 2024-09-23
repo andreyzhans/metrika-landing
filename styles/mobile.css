@@ -1,2 +1,124 @@
 @media (max-width: 575px) {
+  body {
+    font-family: Manrope, Courier, monospace;
+    font-weight: 400;
+    font-size: 15px; /* pt or px? */
+    letter-spacing: -0.03em;
+    background-color: #f5f5f5;
+    color: rgb(18, 18, 18);
+  }
+  img {
+    width: 100%;
+  }
+  main {
+    padding: 0 15px;
+  }
+  h1 {
+    margin-bottom: 25px;
+    font-family: Manrope;
+    font-size: 30px;
+    line-height: 31.62px;
+    letter-spacing: -0.03em;
+  }
+  h2 {
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+  }
+  .block-main {
+    margin-bottom: 80px;
+  }
+  .block-about {
+    margin-bottom: 94.5px;
+  }
+  .block-projects {
+    margin-bottom: 80px;
+  }
+  .block-main-scene {
+    position: relative;
+    height: 304px;
+    background-image: url("../resources/rectangle1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 35%;
+  }
+  .block-main-scene__describtion {
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.03em;
+    color: #f5f5f5;
+  }
+  .block-main__description {
+    margin-bottom: 45px;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: -0.03em;
+  }
+  .block-about__btn {
+    padding: 15.21px 30.41px;
+    border-radius: 3.8px;
+    background: rgb(173, 24, 24);
+
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.03em;
+    text-decoration: none;
+  }
+  .block-about__btn_hover:hover {
+    border: 1px solid rgb(173, 24, 24);
+    background-color: #f5f5f5;
+    color: rgb(173, 24, 24);
+    cursor: default;
+  }
+  .block-projects-element {
+    margin-bottom: 49px;
+  }
+  .block-projects-element:nth-last-child(1) {
+    margin-bottom: 60px;
+  }
+  .block-projects-element__title {
+    margin-bottom: 11px;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+  }
+  .block-projects-element__more {
+    color: rgb(173, 24, 24);
+    font-family: Manrope;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.03em;
+    text-decoration: none;
+  }
+
+  .projects__img {
+    position: relative;
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .block-projects__button {
+    display: block;
+    width: 100%;
+    border: 1px solid rgb(173, 24, 24);
+    border-radius: 3.8px;
+    padding: 37px 0;
+    color: rgb(173, 24, 24);
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    text-decoration: none;
+  }
+  .block-projects__button_hover:hover {
+    background-color: rgb(173, 24, 24);
+    color: #fff;
+    cursor: default;
+  }
 }
