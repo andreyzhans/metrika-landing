@@ -2,6 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Метрика</title>
     <link rel="stylesheet" href="./styles/reset.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -11,8 +12,11 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/laptop.css" />
+    <link rel="stylesheet" href="./styles/mobile.css" />
   </head>
   <body>
+    <!--
     <header>
       <a class="header__logo" href="./index.html"
         ><img src="resources/Метрика.svg" alt="Метрика лого"
@@ -24,61 +28,64 @@
         <a class="header-navigation__element" href="#contacts">Контакты</a>
       </nav>
     </header>
+
+  -->
     <main>
-      <div class="block-main">
-        <h1>Современные и стильные интерьеры для комфортной жизни</h1>
-        <div class="block-main-scene">
-          <p class="block-main-scene__describtion">
-            Мы — команда квалифицированных дизайнеров и архитекторов,
-            занимающихся разработкой и реализацией дизайн-проектов
-          </p>
+        <div class="block-main">
+          <h1>Современные и стильные интерьеры для комфортной жизни</h1>
+          <div class="block-main-scene">
+            <p class="block-main-scene__describtion">
+              Мы — команда квалифицированных дизайнеров и архитекторов,
+              занимающихся разработкой и реализацией дизайн-проектов
+            </p>
+          </div>
         </div>
-      </div>
-      <section id="about" class="block-about">
-        <h2>О нас</h2>
-        <p class="block-main__description">
-          Студия основана в 2011 году. Полностью отдаёмся проектированию и
-          реализации интерьеров. К нам обращаются за уютом, индивидуальными
-          решениями и практичностью. Находим конструктивные решения для каждого
-          интерьера, вплоть до каждой детали — нацелены на результат.
-        </p>
-        <a class="block-about__btn block-about__btn_hover" href="#"
-          >Посмотреть услуги</a
-        >
-      </section>
-      <section id="projects" class="block-projects">
-        <h2 class="block-projects__h2">Проекты</h2>
-        <ul>
-          <li class="block-projects-element" href="#">
-            <div class="block-projects-element">
-              <img src="./resources/rectangle2.png" alt="ЖК Правобережный" />
-              <p class="block-projects-element__title">
-                ЖК Правобережный — 112 м² — 2023
-              </p>
-              <a class="block-projects-element__more" href="">Подробнее →</a>
-            </div>
-          </li>
-          <li class="block-projects-element" href="#">
-            <div class="block-projects-element">
-              <img src="./resources/rectangle3.png" alt="ЖК Норвежский парк" />
-              <p class="block-projects-element__title">
-                ЖК Норвежский парк — 75 м² — 2023
-              </p>
-              <a class="block-projects-element__more" href="">Подробнее →</a>
-            </div>
-          </li>
-          <li class="block-projects-element" href="#">
-            <div class="block-projects-element">
-              <img src="./resources/rectangle4.png" alt="ЖК Сосновские озера" />
-              <p class="block-projects-element__title">ЖК Сосновские озера</p>
-              <a class="block-projects-element__more" href="">Подробнее →</a>
-            </div>
-          </li>
-        </ul>
-        <a class="block-projects__button block-projects__button_hover" href="#"
-          >Смотреть все проекты</a
-        >
-      </section>
+        <section id="about" class="block-about">
+          <h2>О нас</h2>
+          <p class="block-main__description">
+            Студия основана в 2011 году. Полностью отдаёмся проектированию и
+            реализации интерьеров. К нам обращаются за уютом, индивидуальными
+            решениями и практичностью. Находим конструктивные решения для каждого
+            интерьера, вплоть до каждой детали — нацелены на результат.
+          </p>
+          <a class="block-about__btn block-about__btn_hover" href="#"
+            >Посмотреть услуги</a
+          >
+        </section>
+        <section id="projects" class="block-projects">
+          <h2 class="block-projects__h2">Проекты</h2>
+          <ul>
+            <li class="block-projects-element" href="#">
+              <div class="block-projects-element">
+                <img src="./resources/rectangle2.png" alt="ЖК Правобережный" class="projects__img" />
+                <p class="block-projects-element__title">
+                  ЖК Правобережный — 112 м² — 2023
+                </p>
+                <a class="block-projects-element__more" href="">Подробнее →</a>
+              </div>
+            </li>
+            <li class="block-projects-element" href="#">
+              <div class="block-projects-element">
+                <img src="./resources/rectangle3.png" alt="ЖК Норвежский парк" class="projects__img" />
+                <p class="block-projects-element__title">
+                  ЖК Норвежский парк — 75 м² — 2023
+                </p>
+                <a class="block-projects-element__more" href="">Подробнее →</a>
+              </div>
+            </li>
+            <li class="block-projects-element" href="#">
+              <div class="block-projects-element">
+                <img src="./resources/rectangle4.png" alt="ЖК Сосновские озера" class="projects__img" />
+                <p class="block-projects-element__title">ЖК Сосновские озера</p>
+                <a class="block-projects-element__more" href="">Подробнее →</a>
+              </div>
+            </li>
+          </ul>
+          <a class="block-projects__button block-projects__button_hover" href="#"
+            >Смотреть все проекты</a
+          >
+        </section>
+      <!--
       <div class="block-services-block-wrapper">
         <section class="block-services">
           <h2 id="services" class="block-services__h2">Услуги</h2>
@@ -153,5 +160,6 @@
       </nav>
       <p class="footer-description">студия дизайна интерьера Метрика — 2023</p>
     </footer>
+    -->
   </body>
 </html>
